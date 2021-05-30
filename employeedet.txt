@@ -1,0 +1,61 @@
+//To Display Employee Details and Information//
+import java.util.*;
+class  Employee
+{
+	public static void main(String[] args) 
+	{
+		int empid;
+		String empname,desg,company;
+		Float salary;
+
+		Scanner sc=new Scanner(System.in);
+
+		System.out.println("Enter Employee details");
+		System.out.println("==================================");
+		System.out.println("Enter Employee ID ");
+		empid=sc.nextInt();
+		sc.nextLine();
+		System.out.println("Enter Name");
+		empname=sc.nextLine();
+		System.out.println("Enter Employee Desg");
+		desg=sc.nextLine();
+		System.out.println("Enter Employee Salary");
+		salary=sc.nextFloat();
+		sc.nextLine();
+		System.out.println("Enter Company Name" );
+		company=sc.nextLine();
+
+		System.out.println("==================================");
+		System.out.println(" Employee Information" );
+		System.out.println("Employee ID : "+empid);
+		System.out.println("EMPLOYEE NAME : "+empname);
+		System.out.println("EMPLOYEE DESG : "+desg);
+		System.out.println("EMPLOYEE SALARY : "+salary);
+		System.out.println("COMPANY NAME : "+company);
+		System.out.println("==================================");
+        }
+}
+
+#Output
+
+Enter Employee details
+==================================
+Enter Employee ID
+245
+Enter Name
+Mahesh
+Enter Employee Desg
+Data Analyst
+Enter Employee Salary
+60000
+Enter Company Name
+AmazonWebservices
+==================================
+ Employee Information
+Employee ID : 245
+EMPLOYEE NAME : Mahesh
+EMPLOYEE DESG : Data Analyst
+EMPLOYEE SALARY : 60000.0
+COMPANY NAME : AmazonWebservices
+==================================
+Press any key to continue . . .
